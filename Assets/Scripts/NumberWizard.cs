@@ -28,14 +28,17 @@ public class NumberWizard : MonoBehaviour {
 		{
 			Destroy(this.gameObject);
 		} else {
-			_instance = this;
-			// if we're in the "game scene" which will be the only scene where the text attribute is set
-			if (guess_text != null && _guesses == 0) {
-				StartGame (1, 1001);
-				NextGuess ();
-			}
-				
+			_instance = this;				
 		}
+	}
+
+	private void Start()
+	{
+		// if we're in the "game scene" which will be the only scene where the text attribute is set
+		//if (guess_text != null && _guesses == 0) {
+			StartGame (1, 1000);
+			NextGuess ();
+		//}
 	}
 		
 	public void GuessHigher()
@@ -54,12 +57,7 @@ public class NumberWizard : MonoBehaviour {
 	{
 		// if it's the first guess ... we want a random guess.
 		// after that it's binary search
-		if (_guesses == 0) {
-			_current_guess = Random.Range (_min, _max);
-		} else {
-			_current_guess = (_min + _max) / 2;
-		}
-
+		_current_guess = Random.Range (_min, _max + 1);
 		_guesses++;
 
 		guess_num_text.text = _guesses.ToString ();

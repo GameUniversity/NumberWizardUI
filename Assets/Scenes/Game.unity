@@ -228,7 +228,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Correct
+  m_Text: 'YES!
 
 '
 --- !u!222 &167096498
@@ -519,8 +519,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 242, y: -64}
-  m_SizeDelta: {x: 195, y: 38}
+  m_AnchoredPosition: {x: 297, y: -64}
+  m_SizeDelta: {x: 304, y: 38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &898111221
 MonoBehaviour:
@@ -606,7 +606,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Guess Lower
+  m_Text: 'My Number Is Lower
 
 '
 --- !u!222 &898111223
@@ -647,8 +647,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -162.5, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -197, y: 0}
+  m_SizeDelta: {x: 230, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &984557458
 MonoBehaviour:
@@ -682,7 +682,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'My Guess is :'
+  m_Text: 'Is this your number:'
 --- !u!222 &984557459
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -900,7 +900,7 @@ Prefab:
     - target: {fileID: 114526680169829586, guid: 8832a6287f97146be9d8d8d831b35a34,
         type: 2}
       propertyPath: _max_guesses
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8832a6287f97146be9d8d8d831b35a34, type: 2}
@@ -938,8 +938,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 244.5, y: 77}
-  m_SizeDelta: {x: 200, y: 38}
+  m_AnchoredPosition: {x: 303, y: 77}
+  m_SizeDelta: {x: 317, y: 38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1555249356
 MonoBehaviour:
@@ -1025,7 +1025,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Guess Higher
+  m_Text: 'My Number Is Higher
 
 '
 --- !u!222 &1555249358
